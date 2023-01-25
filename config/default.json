@@ -1,0 +1,83 @@
+{
+  "environment": "dev",
+  "app_name": "DevTestApp",
+  "app_domain": "",
+  "app_portal_domain": "",
+  "jwtPrivateKey": "unsecureKey",
+  "bcryptSalt": "$2b$10$oPd2gJERglqNiWXf3sYwIu",
+  "dbMlab": "mongodb+srv://mahabodhitech:mysecreatekey@cluster0.onnex.mongodb.net/letsVideocall_db?retryWrites=true",
+  "port": "5000",
+  "password_policy": {
+    "max_failed_retries": 5,
+    "distinct_password": 3,
+    "block_time_in_min": 1
+  },
+  "max_otp_attempts": 3,
+  "otp_expiry_in_mins": 15,
+  "reset_password_otp_expiry_in_mins": 600,
+  "asr_submission_time_in_days": 7,
+  "sendSms": true,
+  "smsc_twilio": {
+    "sms_client": "",
+    "sms_client_secret": "",
+    "sms_from_number": "",
+    "registrationOTP": "$otp$ is your verification code for registering on Solo Mas.",
+    "resetPasswordOTP": "$otp$ is your verification code for reset password request."
+  },
+  "email_sendgrid": {
+    "email_api_key": "",
+    "senderId": "",
+    "OtpSubject": "Verification code for devTest application!!!",
+    "VerifyEmailSubject": "Email Verification!!!",
+    "ResetPasswordEmailSubject": "Reset Password Link!!!"
+  },
+  "requiresAuth": true,
+  "notifications": {
+    "likeFeedTitle": "$username$ liked your post.",
+    "likeFeed": "$username$ liked your post, $post$",
+    "commentFeedTitle": "$username$ commented on your post.",
+    "commentFeed": "$username$ commented on your post, $post$.",
+    "likePhotoTitle": "$username$ liked your photo.",
+    "likePhoto": "$username$ liked your photo:",
+    "commentPhotoTitle": "$username$ commented on your photo.",
+    "commentPhoto": "$username$ commented on your photo:",
+    "newMessageTitle": "New Message",
+    "newMessage": "$userName$ sent you a message!",
+    "3DaysCarnivalReminderTitle": "You are attending $carnivalName$ ",
+    "3DaysCarnivalReminder": "$carnivalName$ is coming in 3 days",
+    "1DaysCarnivalReminderTitle": "You are attending $carnivalName$ ",
+    "1DaysCarnivalReminder": "$carnivalName$ is coming in 1 days",
+    "sameDaysCarnivalReminderTitle": "You are attending $carnivalName$ today!",
+    "sameDaysCarnivalReminder": "$carnivalName$ is today. Enjoy!",
+    "chooseBandTitle": "Still confused about the band?",
+    "chooseBand": "Choose your Band for the $carnivalName$.",
+    "contestCommencementTitle": "Submissions are open for $contestName$",
+    "contestCommencement": "Submit your photo for the $contestName$ Road King & Road Queen!",
+    "carnivalAttendeesTitle": "Haven't participated in the $contestName$ yet?",
+    "carnivalAttendees": "While you’re at the $carnivalName$ don’t forget to submit your contest photos!",
+    "voteReminderTitle": "Have you voted yet?",
+    "voteReminder": "You have an hour left!",
+    "winnerRoadKingTitle": "Congratulations Road King!",
+    "winnerRoadKing": "You have won the $contestName$.",
+    "winnerRoadQueenTitle": "Congratulations Road Queen!",
+    "winnerRoadQueen": "You have won the $contestName$.",
+    "winnerVoterTitle": "Good news!",
+    "winnerVoter": "$winnerName$ has won the $contestName$."
+  },
+  "S3_SECRET_KEY": "",
+  "S3_ACCESS_KEY": "",
+  "S3_BUCKET_REGION": "",
+  "S3_BUCKET_NAME": "",
+  "FIREBASE_DB": "",
+  "dashboard": {
+    "Days": 30
+  },
+  "distance": {
+    "maxDistance": 25749,
+    "distanceInMiles": 0.000621371
+  },
+  "cheatOTP": true,
+  "STRIPE_KEY": "",
+  "logo": "",
+  "stripeIntegrationPending": "To continue, you must update your payout details."
+}

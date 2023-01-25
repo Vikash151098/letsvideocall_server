@@ -1,0 +1,17 @@
+{
+  "environment": "devApp_environment",
+  "jwtPrivateKey": "devApp_jwtPrivateKey",
+  "bcryptSalt": "devApp_bcryptSalt",
+  "smsc_twilio.sms_client": "devApp_sms_client",
+  "smsc_twilio.sms_client_secret": "devApp_client_secret",
+  "dbMlab": "devApp_dbMlab_string",
+  "email_sendgrid.email_api_key": "devApp_email_api_key",
+  "app_domain": "devApp_app_domain",
+  "app_portal_domain": "devApp_app_portal_domain",
+  "S3_SECRET_KEY": "S3_SECRET_KEY",
+  "S3_ACCESS_KEY": "S3_ACCESS_KEY",
+  "S3_BUCKET_REGION": "S3_BUCKET_REGION",
+  "S3_BUCKET_NAME": "S3_BUCKET_NAME",
+  "FIREBASE_DB": "FIREBASE_DB",
+  "STRIPE_KEY": "STRIPE_KEY"
+}
